@@ -12,6 +12,10 @@ function App() {
       title: "Emmet cheatsheet, VS code",
       link: "https://docs.emmet.io/cheat-sheet/",
     },
+    {
+      title: "Emacs command cheat sheet",
+      link: "http://www.rgrjr.com/emacs/emacs_cheat.html",
+    },
   ];
 
   const [test, setTest] = useState("");
