@@ -45,3 +45,99 @@
 .list-a:hover {
   color: black;
 }
+
+.link-container {
+  margin-top: 7 px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: navy;
+  position: fixed;
+  justify-content: space-around;
+  width: 100%;
+  bottom: 0px;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.suggest-form {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin-left: 100px;
+  margin-right: 50px;
+  flex-wrap: wrap;
+}
+
+.suggest-input {
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  border-bottom: white 3px solid;
+  padding: 4px;
+  font-size: 22px;
+  background-color: navy;
+  color: white;
+  flex-grow: 1;
+  max-width: 700px;
+}
+
+.suggest-button {
+  background-color: navy;
+  color: white;
+  padding: 4px;
+  border: none;
+  font-size: 22px;
+  border-bottom: 3px white solid;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer-text {
+  margin-left: 50px;
+  color: white;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 950px) {
+  .footer-text {
+    font-size: 17px;
+  }
+  .suggest-input {
+    font-size: 17px;
+  }
+  .suggest-button {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  footer {
+    display: none;
+  }
+  .app-title {
+    font-size: 40px;
+  }
+  .app-subtitle {
+    font-size: 30px;
+  }
+  .app-search-input {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .app-search-input {
+    font-size: 20px;
+  }
+  .search-icon {
+    display: none;
+  }
+  .link-container {
+    margin-bottom: 20px;
+  }
+}
