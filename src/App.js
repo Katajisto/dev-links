@@ -59,7 +59,8 @@ function App() {
         <h2 className="footer-text">
           <i class="fas fa-paper-plane"></i> Send a suggestion
         </h2>
-        <form name="suggestionbox" className="suggest-form">
+        <form name="suggestionbox" className="suggest-form" method="post">
+          <input type="hidden" name="form-name" value="suggestionbox" />
           <input
             className="suggest-input"
             type="text"
@@ -67,7 +68,6 @@ function App() {
             name="link"
           ></input>
           <input type="submit" className="suggest-button" value="Send"></input>
-          <input type="hidden" name="form-name" value="suggestionbox" />
         </form>
       </footer>
     </div>
