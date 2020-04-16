@@ -16,6 +16,18 @@ function App() {
       title: "Emacs command cheat sheet",
       link: "http://www.rgrjr.com/emacs/emacs_cheat.html",
     },
+    {
+      title: "Full Stack Open Course",
+      link: "https://fullstackopen.com/"
+    },
+    {
+      title: "JavaScript/JS MDN documentation/reference",
+      link: "https://developer.mozilla.org/fi/docs/Web/JavaScript/Reference"
+    },
+    {
+      title: "Tmux cheat sheet",
+      link: "https://tmuxcheatsheet.com/"
+    }
   ];
 
   const [test, setTest] = useState("");
